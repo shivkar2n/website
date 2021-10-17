@@ -1,0 +1,27 @@
+.language {
+  display: inline;
+
+	img{
+		margin: 20px;
+		height: 210px;
+		width: 210px;
+		padding: 10px;
+	}
+  img:hover{
+    filter: grayscale(120%);
+  }
+
+	@media screen and (max-width: 700px) {
+
+		img{
+			margin: 0px;
+			height: auto;
+			width: 50%;
+			padding-left: 15%;
+			padding-right: 15%;
+		}
+    }
+    &.active{
+
+    }
+}

@@ -1,0 +1,47 @@
+.bio{
+
+	background-color: #5e81ac;
+
+h1{
+	padding-top:  2.5%;
+	padding-left: 45%;
+	padding-right: 25%;
+	font-size: 400%;
+}
+.imageContainer{
+	display: flex;
+	justify-content: center;
+
+	img{
+		margin: 20px;
+		border: 15px;
+		border-radius: 10px;
+		border-style: solid;
+		border-color: #bac3ce;
+		height: auto;
+		width: 275px;
+	}
+}
+
+h2{
+	font-size: 30px ;
+	margin: 2%;
+	padding-left: 17%;
+	padding-right: 15%;
+}
+	@media screen and (max-width: 700px) {
+	h1{
+		padding-top:  2.5%;
+		padding-left: 35%;
+		padding-right: 25%;
+		font-size: 400%;
+	}
+
+	h2{
+		margin: 2%;
+		padding-left: 10%;
+		padding-right:  8%;
+	}
+
+	}
+}

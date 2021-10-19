@@ -1,11 +1,12 @@
 import './about.scss'
+import logo from '../images/logo.png'
 
 export default function About(){
 	return(
 		<div className="about" id="about">
 			 <div className="left">
 				<div className="imgContainer">
-					<img src="/images/logo.png"/>
+					<img src={logo}/>
 				</div>
 			</div>
 			<div className="right">

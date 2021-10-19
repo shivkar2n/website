@@ -10,7 +10,7 @@ export default function Topbar({menuOpen,setMenuOpen }) {
 					<a href="#about" className="logo">@Shiv</a>
 					<div className="itemContainer">
 						<GitHubIcon className="icon"/>
-						<span><a href="https://github.com/shivkar2n/">GitHub</a> </span>				
+						<span><a href="https://github.com/shivkar2n/" target="_blank">GitHub</a> </span>				
 					</div>	
 					<div className="itemContainer">
 						<EmailIcon className="icon"/>

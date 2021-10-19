@@ -1,4 +1,6 @@
 import './contacts.scss';
+import linkedin from '../images/linkedin.svg'
+import github from '../images/github.svg'
 
 export default function Contacts(){
 	return (
@@ -9,11 +11,11 @@ export default function Contacts(){
 				</h2>
 			<div className="imageContainer">
 				<a href="https://www.linkedin.com/in/shiv-karthik-291887223/" target="_blank">
-					<img src="/images/linkedin.svg"></img>
+					<img src={linkedin}></img>
 				</a>	
 
 				<a href="https://www.linkedin.com/in/shiv-karthik-291887223/" target="_blank">
-					<img src="/images/github.svg"></img>
+					<img src={github}></img>
 				</a>	
 			</div>
 			<h3>copyright © 2021 </h3>
